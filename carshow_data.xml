@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CarShowData>
+    <Owners>
+        <Owner>
+            <ownerId>GW</ownerId>
+            <lastName>WASHINGTON</lastName>
+            <firstName>GEORGE</firstName>
+            <phoneNumber>202-222-2222</phoneNumber>
+            <numYears>10</numYears>
+            <Address>
+                <street1>2199 S UNIVERSITY BLVD</street1>
+                <street2/>
+                <city>DENVER</city>
+                <state>CO</state>
+                <zipCode>80208-0001</zipCode>
+            </Address>
+        </Owner>
+        <Owner>
+            <ownerId>AL</ownerId>
+            <lastName>LINCOLN</lastName>
+            <firstName>ABRAHAM</firstName>
+            <phoneNumber>202-222-4444</phoneNumber>
+            <numYears>30</numYears>
+            <Address>
+                <street1>2199 S UNIVERSITY BLVD</street1>
+                <street2/>
+                <city>DENVER</city>
+                <state>CO</state>
+                <zipCode>80208-0001</zipCode>
+            </Address>
+        </Owner>
+        <Owner>
+            <ownerId>DB</ownerId>
+            <lastName>BELTRAN</lastName>
+            <firstName>DAVID</firstName>
+            <phoneNumber>2342532134</phoneNumber>
+            <numYears>20</numYears>
+            <Address>
+                <street1>THIS ST</street1>
+                <street2>APT 1</street2>
+                <city>RALEIGH</city>
+                <state>NC</state>
+                <zipCode>12345</zipCode>
+            </Address>
+        </Owner>
+    </Owners>
+    <Vehicles>
+        <Vehicle>
+            <vehicleId>V1</vehicleId>
+            <ownerId>GW</ownerId>
+            <manufacturer>DODGE</manufacturer>
+            <modelYear>1975</modelYear>
+            <model>DART</model>
+            <submodel>SPORT</submodel>
+            <vehicleClassification>CLASSIC</vehicleClassification>
+            <isInsured>true</isInsured>
+        </Vehicle>
+    </Vehicles>
+    <CarShows>
+        <CarShow>
+            <carShowId>CS1</carShowId>
+            <carShowTitle>MILE HIGH CAR SHOW</carShowTitle>
+            <carShowDate>03/12/2020</carShowDate>
+            <isSanctioned>true</isSanctioned>
+        </CarShow>
+        <CarShow>
+            <carShowId>CS2</carShowId>
+            <carShowTitle>DYNAMITE</carShowTitle>
+            <carShowDate>10/7/2026</carShowDate>
+            <isSanctioned>false</isSanctioned>
+        </CarShow>
+        <CarShow>
+            <carShowId>CS3</carShowId>
+            <carShowTitle>RAMPAGE</carShowTitle>
+            <carShowDate>04/7/2031</carShowDate>
+            <isSanctioned>true</isSanctioned>
+        </CarShow>
+    </CarShows>
+    <CarShowOwners>
+        <CarShowOwner>
+            <carShowId>CS1</carShowId>
+            <ownerId>GW</ownerId>
+        </CarShowOwner>
+        <CarShowOwner>
+            <carShowId>CS1</carShowId>
+            <ownerId>AL</ownerId>
+        </CarShowOwner>
+        <CarShowOwner>
+            <carShowId>CS2</carShowId>
+            <ownerId>DB</ownerId>
+        </CarShowOwner>
+        <CarShowOwner>
+            <carShowId>CS3</carShowId>
+            <ownerId>AL</ownerId>
+        </CarShowOwner>
+    </CarShowOwners>
+</CarShowData>

@@ -1,0 +1,1 @@
+PersistService=edu.du.beltrandavid.model.services.persistservice.JSONPersistService

@@ -1,0 +1,154 @@
+{
+  "Vehicle": [
+    {
+      "isInsured": true,
+      "submodel": "SPORT",
+      "vehicleClassification": "CLASSIC",
+      "model": "DART",
+      "vehicleId": "V1",
+      "modelYear": 1975,
+      "ownerId": "GW",
+      "manufacturer": "DODGE"
+    },
+    {
+      "isInsured": true,
+      "submodel": "ZIPPY",
+      "vehicleClassification": "MODERN",
+      "model": "VROOM",
+      "vehicleId": "V2",
+      "modelYear": 1990,
+      "ownerId": "AB",
+      "manufacturer": "FERRARI"
+    },
+    {
+      "isInsured": true,
+      "submodel": "ZIPPY",
+      "vehicleClassification": "MODERN",
+      "model": "VROOM",
+      "vehicleId": "V3",
+      "modelYear": 1990,
+      "ownerId": "AB1",
+      "manufacturer": "FERRARI"
+    }
+  ],
+  "Owner": [
+    {
+      "numYears": 10,
+      "firstName": "GEORGE",
+      "lastName": "WASHINGTON",
+      "address": {
+        "zipCode": "80208-0001",
+        "city": "DENVER",
+        "street1": "2199 S UNIVERSITY BLVD",
+        "state": "CO",
+        "street2": ""
+      },
+      "phoneNumber": "202-222-2222",
+      "seniorOwner": false,
+      "ownerId": "GW"
+    },
+    {
+      "numYears": 30,
+      "firstName": "ABRAHAM",
+      "lastName": "LINCOLN",
+      "address": {
+        "zipCode": "80208-0001",
+        "city": "DENVER",
+        "street1": "2199 S UNIVERSITY BLVD",
+        "state": "CO",
+        "street2": ""
+      },
+      "phoneNumber": "202-222-4444",
+      "seniorOwner": true,
+      "ownerId": "AL"
+    },
+    {
+      "numYears": 25,
+      "firstName": "ADELISA",
+      "lastName": "BELTRAN",
+      "address": {
+        "zipCode": "12345",
+        "city": "NEW YORK",
+        "street1": "HERE ST",
+        "state": "NY",
+        "street2": "APT 2"
+      },
+      "phoneNumber": "923-432-4321",
+      "seniorOwner": true,
+      "ownerId": "AB"
+    },
+    {
+      "numYears": 25,
+      "firstName": "DAVID",
+      "lastName": "BELTRAN",
+      "address": {
+        "zipCode": "12345",
+        "city": "NEW YORK",
+        "street1": "HERE ST",
+        "state": "NY",
+        "street2": "APT 2"
+      },
+      "phoneNumber": "923-432-4321",
+      "seniorOwner": true,
+      "ownerId": "AB1"
+    },
+    {
+      "numYears": 30,
+      "firstName": "AMANDA",
+      "lastName": "MURIC",
+      "address": {
+        "zipCode": "80208-0001",
+        "city": "DENVER",
+        "street1": "2199 S UNIVERSITY BLVD",
+        "state": "CO",
+        "street2": ""
+      },
+      "phoneNumber": "202-222-4444",
+      "seniorOwner": true,
+      "ownerId": "AM"
+    },
+    {
+      "numYears": 30,
+      "firstName": "LEJLA",
+      "lastName": "MURIC",
+      "address": {
+        "zipCode": "80208-0001",
+        "city": "DENVER",
+        "street1": "2199 S UNIVERSITY BLVD",
+        "state": "CO",
+        "street2": ""
+      },
+      "phoneNumber": "202-222-4444",
+      "seniorOwner": true,
+      "ownerId": "LM"
+    }
+  ],
+  "CarShow": [
+    {
+      "carShowDate": "03/12/2020",
+      "carShowId": "CS1",
+      "carShowTitle": "MILE HIGH CAR SHOW",
+      "isSanctioned": true
+    },
+    {
+      "carShowDate": "07/22/2022",
+      "carShowId": "CS2",
+      "carShowTitle": "DYNAMITE",
+      "isSanctioned": true
+    }
+  ],
+  "CarShowOwner": [
+    {
+      "carShowId": "CS1",
+      "ownerId": "GW"
+    },
+    {
+      "carShowId": "CS2",
+      "ownerId": "AB"
+    },
+    {
+      "carShowId": "CS3",
+      "ownerId": "AM"
+    }
+  ]
+}

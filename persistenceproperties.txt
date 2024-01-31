@@ -1,0 +1,2 @@
+#PersistService=edu.du.beltrandavid.model.services.persistservice.XMLPersistService
+PersistService=edu.du.beltrandavid.model.services.persistservice.JSONPersistService

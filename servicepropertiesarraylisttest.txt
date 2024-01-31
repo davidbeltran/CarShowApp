@@ -1,0 +1,4 @@
+IOwnerService=edu.du.beltrandavid.model.services.ownerservice.OwnerArrayListImpl
+IVehicleService=edu.du.beltrandavid.model.services.vehicleservice.VehicleArrayListImpl
+ICarShowOwnerService=edu.du.beltrandavid.model.services.carshowownerservice.CarShowOwnerArrayListImpl
+ICarShowService=edu.du.beltrandavid.model.services.carshowservice.CarShowArrayListImpl
